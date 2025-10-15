@@ -71,9 +71,9 @@ Chiagoziem, Git, submitted
 Divine, Shell Navigation, not submitted
 Anissa, Shell Basics, submitted
 Stacey, Git, submitted
-Trina, Shell Permissions, not submitted
-Muthoni, Shell Basics, not submitted
-Fidel, Shell Processes, submitted
+Trina, Shell Basics, not submitted
+Muthoni, Shell Navigation, not submitted
+Fidel, Shell Navigation, submitted
 Asha, Git, submitted
 EOL
 
