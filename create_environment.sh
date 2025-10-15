@@ -5,7 +5,7 @@
 read -p "enter your name: " yourname
 mkdir -p submissions_reminder_$yourname
 
-parent_dir="sibmissions_reminder_'$yourname'"
+parent_dir="submissions_reminder_$yourname"
 #create subdirectories
 mkdir -p "$parent_dir/app"
 mkdir -p "$parent_dir/modules"
@@ -85,15 +85,15 @@ fi
 
 ./"$parent_dir/app/reminder.sh"
 
-" > "$parent_dir/sartup.sh"
+" > "$parent_dir/startup.sh"
 
 # give execution permissions to the files ending with .sh
 
 chmod +x "$parent_dir/app/reminder.sh"
-chmod +x "$parent_dir/sartup.sh"
+chmod +x "$parent_dir/startup.sh"
 chmod +x "$parent_dir/modules/functions.sh"
 
-echo "Enter ./startup.sh to start the app"
+echo "Enter cd $parent_dir && ./startup.sh to start the app"
 
 
 
