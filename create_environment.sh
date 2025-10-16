@@ -3,9 +3,9 @@
 
 #ask the user input and create a directory submission_reminder_{userinput}
 read -p "enter your name: " yourname
-mkdir -p submissions_reminder_$yourname
+mkdir -p submission_reminder_$yourname
 
-main_dir="submissions_reminder_$yourname"
+main_dir="submission_reminder_$yourname"
 #create subdirectories
 mkdir -p "$main_dir/app"
 mkdir -p "$main_dir/modules"
